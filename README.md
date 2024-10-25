@@ -8,7 +8,7 @@ In this note we describe two methods to guide pricing decisions based on legal p
 
 Governments around the world are proposing or enforcing new laws (rules) governing digital markets. The current-emerging dispute between Apple and EC relates closely to the fee structure the former can apply to 3P apps. This dispute previews a price regulation problem that will play out in several jurisdictions in the coming years. Failing to resolve this problem leads to high transaction costs and economically inefficient prices. Consequently there is high value to developing solutions to this problem. We expand in four steps _1._ Principles, _2._ Problems (Existing Solutions), _3._ Prototype (new solution), _4._ Remarks (limits and tradeoffs).  
 
-### **Principles**
+### **1. Principles**
 
 The EC lays out two principles to regulate this group of decisions (fairness, contestability).
 
@@ -18,21 +18,21 @@ _Fairness_ In some instances the gov-regulator must be prepared to effectively r
 
 _Surplus_ App stores generate value from at least two sources a. value of indirect network effects (app developers, users) and b. features (characteristics) of the app store or OS. These two sources interact with one another, i.e. the platform takes actions to grow network effects.  
 
-### **Problems + Existing Solutions**
+### **2. Problems + Existing Solutions**
 
 There are three methods to estimate FRAND (these have been used in SEPs and telecom regulation). These methods are i. Retail-pricing, ii. Benchmarking, and iii. Value-based. The first two are unlikely to form the basis of FRAND in app stores. To explore the third method, Padilla (2024) suggests reviewing business plans or perhaps using surveys to ask users how important certain characteristics of the platform are.
 
-#### **Inadequacy of existing solutions**
+#### **2.1 Inadequacy of existing solutions**
 
 Existing value-based methods are unsatisfactory as a basis to develop FRAND app store fees. The monopoly on app stores makes it meaningless to ask users about attributes of alternative stores. Qualitative suggestions of how much value one side brings to the other are unsound. We need a method to determine how to separate the value of the platform from the value created by the indirect network effects between app developers and users. 
 
-### **Prototype**
+### **3. Prototype**
 
 We code a prototype under which advertiser and viewability metrics provide valid identification for indirect network effects on the app ecosystem. To derive these conditions we exploit two features 1. the Apple Store/iOS user experience (UX) and app experience (CX), and 2. synthetic data (metrics) that the platform makes available to app developers. Joining these two sources we derive variation in the number of users that are effectively available to an app developer. We present an algorithm to transform this data into dollar valuations that developers gain from users. We lay out how this estimate can be used to determine one of many FRAND prices.  
 
-### **Remarks**
+### **4. Remarks**
 
-This prototype illustrates three features 1. It is sufficient to share commonly available, aggregated data to generate FRAND prices (and this does not require privacy protections), 2. this FRAND method formalizes the fairness principle which can save transaction costs, 3. there are several tradeoffs to consider in extending or applying this prototype to mobile app ecosystems (for example improving accuracy, reducing data burdens, and so on.).   
+This prototype illustrates three features 1. It is sufficient to share commonly available, aggregated data to generate FRAND prices (and this does not require privacy protections), 2. this FRAND method formalizes the fairness principle which can save transaction costs, 3. there are several tradeoffs to consider in extending or applying this prototype to mobile app ecosystems (for example improving accuracy, reducing data burdens).   
 
 ## App Stores - One time fee
 
