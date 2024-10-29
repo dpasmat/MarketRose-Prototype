@@ -1,6 +1,6 @@
 # MarketRose
 
-In this note we describe two methods to guide pricing decisions based on legal principles that are legislated to redesign features of the market for mobile app stores.
+We describe two methods to guide pricing decisions based on legal principles that are legislated to redesign features of the market for mobile app stores.
 
 ## App Stores - Distribution Fees
 
