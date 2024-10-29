@@ -28,7 +28,7 @@ In this code we use advertiser and viewability metrics to estimate a proxy for i
 
 ### **4. Remarks**
 
-This prototype illustrates three features 1. it is possible to formalize the fairness principle to divide surplus on a multisided platform, 2. To do this it is sufficient to share commonly available, aggregated data to generate FRAND prices (and this does not require privacy protections), 3. there are several tradeoffs to consider in applying this prototype to mobile app ecosystems (for example improving accuracy, reducing data burdens).   
+This prototype illustrates four properties 1. it is possible to formalize the fairness principle to divide surplus on a multisided platform, 2. to do this it is sufficient to share commonly available, aggregated data to generate FRAND prices (and this does not require privacy protections), 3. there are several tradeoffs to consider in applying this prototype to mobile app ecosystems (for example improving accuracy, reducing data burdens), 4. this method enables the designer to build different features into FRAND prices (for example uniform versus discriminatory prices, time varying prices, and so on). 
 
 ## App Stores - One time fee
 
