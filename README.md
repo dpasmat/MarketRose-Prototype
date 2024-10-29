@@ -6,7 +6,7 @@ In this note we describe two methods to guide pricing decisions based on legal p
 
 ### **Context**
 
-Governments around the world are proposing or enforcing new laws (rules) governing digital markets. The emerging dispute between Apple and EC relates closely to the fee structure the former can apply to 3P apps. This dispute previews a price regulation problem that will play out in several jurisdictions in the coming years. Failing to resolve this problem leads to high transaction costs and economically inefficient prices. Consequently there is high value to developing solutions to this problem. We expand in four steps _1._ Principles, _2._ Problems (Existing Solutions), _3._ Prototype (new solution), _4._ Remarks (limits and tradeoffs).  
+Governments around the world are proposing or enforcing new laws (rules) governing digital markets. The emerging dispute between Apple and EC relates closely to the fee structure the former can apply to 3P apps. This dispute previews a price regulation problem that will play out in several jurisdictions in the coming years. Failing to resolve this problem leads to high transaction costs and economically inefficient prices. Consequently there is value to developing solutions to this problem. We expand in four steps _1._ Principles, _2._ Problems, _3._ Prototype, _4._ Remarks (limits and tradeoffs).  
 
 ### **1. Principles**
 
@@ -20,7 +20,7 @@ _Surplus_ App stores generate value from at least two sources a. value of indire
 
 ### **2. Problems + Existing Solutions**
 
-There are three methods to estimate FRAND (these have been used in SEPs and telecom regulation). These methods are i. Retail-pricing, ii. Benchmarking, and iii. Value-based. The first two are unlikely to form the basis of FRAND in app stores. Existing value-based methods are unsatisfactory as a basis to develop FRAND app store fees. The monopoly on app stores makes it meaningless to ask users about attributes of alternative stores. Qualitative suggestions of how much value one side brings to the other are unsound. We need a method to determine how to separate the value of the platform from the value created by the indirect network effects between app developers and users. 
+There are three methods to estimate FRAND (these have been used in SEPs and telecom regulation). These methods are i. Retail-pricing, ii. Benchmarking, and iii. Value-based. The first two are unlikely to form the basis of FRAND in app stores. Existing value-based methods are also unsatisfactory as a basis to develop FRAND app store fees. The monopoly on app stores makes it meaningless to ask users about attributes of alternative stores. Qualitative suggestions of how much value one side brings to the other are unsound. We need a method to approximate how to separate the value of the platform from the value created by the indirect network effects between app developers and users. 
 
 ### **3. Prototype**
 
@@ -28,7 +28,7 @@ In this code we use advertiser and viewability metrics to estimate a proxy for i
 
 ### **4. Remarks**
 
-This prototype illustrates three features 1. it is possible to formalize the fairness principle to divide surplus, 2. To do this it is sufficient to share commonly available, aggregated data to generate FRAND prices (and this does not require privacy protections), 3. there are several tradeoffs to consider in applying this prototype to mobile app ecosystems (for example improving accuracy, reducing data burdens).   
+This prototype illustrates three features 1. it is possible to formalize the fairness principle to divide surplus on a multisided platform, 2. To do this it is sufficient to share commonly available, aggregated data to generate FRAND prices (and this does not require privacy protections), 3. there are several tradeoffs to consider in applying this prototype to mobile app ecosystems (for example improving accuracy, reducing data burdens).   
 
 ## App Stores - One time fee
 
