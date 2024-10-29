@@ -20,19 +20,15 @@ _Surplus_ App stores generate value from at least two sources a. value of indire
 
 ### **2. Problems + Existing Solutions**
 
-There are three methods to estimate FRAND (these have been used in SEPs and telecom regulation). These methods are i. Retail-pricing, ii. Benchmarking, and iii. Value-based. The first two are unlikely to form the basis of FRAND in app stores. To explore the third method, Padilla (2024) suggests reviewing business plans or perhaps using surveys to ask users how important certain characteristics of the platform are.
-
-#### **2.1 Inadequacy of existing solutions**
-
-Existing value-based methods are unsatisfactory as a basis to develop FRAND app store fees. The monopoly on app stores makes it meaningless to ask users about attributes of alternative stores. Qualitative suggestions of how much value one side brings to the other are unsound. We need a method to determine how to separate the value of the platform from the value created by the indirect network effects between app developers and users. 
+There are three methods to estimate FRAND (these have been used in SEPs and telecom regulation). These methods are i. Retail-pricing, ii. Benchmarking, and iii. Value-based. The first two are unlikely to form the basis of FRAND in app stores. Existing value-based methods are unsatisfactory as a basis to develop FRAND app store fees. The monopoly on app stores makes it meaningless to ask users about attributes of alternative stores. Qualitative suggestions of how much value one side brings to the other are unsound. We need a method to determine how to separate the value of the platform from the value created by the indirect network effects between app developers and users. 
 
 ### **3. Prototype**
 
-We code a prototype under which advertiser and viewability metrics provide valid identification for indirect network effects on the app ecosystem. To derive these conditions we exploit two features 1. the Apple Store/iOS user experience (UX) and app experience (CX), and 2. data (metrics) that the platform makes available to app developers. Joining these two sources we derive variation in the number of users that are effectively available to an app developer. We present an algorithm to transform this data into dollar valuations that developers gain from users. We lay out how this estimate can be used to determine one of many FRAND prices.  
+In this code we use advertiser and viewability metrics to estimate a proxy for indirect network effects on the app ecosystem. To do this we exploit two features 1. the Apple Store/iOS user experience (UX) and 2. data (metrics) that the platform makes available to app developers (CX). Joining these two sources we derive variation in the number of users that are effectively available to an app developer. We present an algorithm to transform this data into dollar valuations that developers gain from users. We lay out how this estimate can be used to determine one of many FRAND prices.  
 
 ### **4. Remarks**
 
-This prototype illustrates three features 1. It is sufficient to share commonly available, aggregated data to generate FRAND prices (and this does not require privacy protections), 2. this FRAND method formalizes the fairness principle, 3. there are several tradeoffs to consider in extending or applying this prototype to mobile app ecosystems (for example improving accuracy, reducing data burdens).   
+This prototype illustrates three features 1. it is possible to formalize the fairness principle to divide surplus, 2. To do this it is sufficient to share commonly available, aggregated data to generate FRAND prices (and this does not require privacy protections), 3. there are several tradeoffs to consider in applying this prototype to mobile app ecosystems (for example improving accuracy, reducing data burdens).   
 
 ## App Stores - One time fee
 
