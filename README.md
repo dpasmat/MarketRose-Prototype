@@ -24,11 +24,11 @@ There are three methods to estimate FRAND (these have been used in SEPs and tele
 
 ### **3. Prototype**
 
-In this code we use advertiser and viewability metrics to estimate a proxy for indirect network effects on the app ecosystem. To do this we exploit two features 1. the Apple Store/iOS user experience (UX) and 2. data (metrics) that the platform makes available to app developers (CX). Joining these two sources we derive variation in the number of users that are effectively available to an app developer. We present an algorithm to transform this data into dollar valuations that developers gain from users. We lay out how this estimate can be used to determine one of many FRAND prices.  
+In this code we use advertiser and viewability metrics to estimate a proxy for indirect network effects on the app ecosystem. To do this we exploit two features 1. the Apple Store/iOS user experience (UX) and 2. data (metrics) that the platform makes available to app developers (CX). Joining these two sources we derive variation in the number of users that are effectively available to an app developer. We present an algorithm to transform this data into dollar valuations that developers gain from users. We lay out how to use this estimate to generate a range of FRAND prices.   
 
 ### **4. Remarks**
 
-This prototype illustrates four properties 1. it is possible to formalize the fairness principle to divide surplus on a multisided platform, 2. to do this it is sufficient to share commonly available, aggregated data to generate FRAND prices (and this does not require privacy protections), 3. there are several tradeoffs to consider in applying this prototype to mobile app ecosystems (for example improving accuracy, reducing data burdens), 4. this method enables the designer to build different features into FRAND prices (for example uniform versus discriminatory prices, time varying prices, and so on). 
+This prototype illustrates four properties 1. it is possible to formalize the fairness principle to divide surplus on a multisided platform, 2. to set FRAND prices it is sufficient to share commonly available, aggregated data (and this does not require privacy protections), 3. there are several tradeoffs to consider in applying this prototype to mobile app ecosystems (for example improving accuracy, reducing data burdens), 4. this method enables the designer to build different features into FRAND prices (for example uniform versus discriminatory prices, time varying prices, and so on). 
 
 ## App Stores - One time fee
 
